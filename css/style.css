@@ -1,0 +1,8 @@
+#navbar nav.on-cover {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+#cover-page .jumbotron {
+    height: 100vh;
+    padding-top: 100px;
+}
