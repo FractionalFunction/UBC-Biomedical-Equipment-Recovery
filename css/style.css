@@ -7,11 +7,24 @@
 
 #cover-page .jumbotron {
     height: 100vh;
-    padding-top: 100px;
+    padding-top: calc(100px + 10vh);
+    text-align: center;
+}
+#cover-page.no-bottom-margin .jumbotron,
+.content-full-height.no-bottom-margin .jumbotron {
+    margin-bottom: 0;
 }
 
-#content-main .content-media .row {
+.content-media {
+    margin-top: 15px;
+}
+.content-media .row {
     margin-bottom: 15px;
+}
+.content-full-height {
+    height: 100vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 #footer {
