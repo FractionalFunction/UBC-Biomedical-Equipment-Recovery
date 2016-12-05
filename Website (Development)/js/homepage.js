@@ -13,7 +13,7 @@ $(window).scroll(function() {
 $(document).ready(function(){
     // Do these things onload
 
-}
+});
 window.onresize = function() {
     // Do these things onresize
 
