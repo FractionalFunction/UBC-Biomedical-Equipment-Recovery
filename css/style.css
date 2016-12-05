@@ -4,10 +4,30 @@
     background-color: rgba(0, 0, 0, 0);
     border: none;
 }
+
 #cover-page .jumbotron {
     height: 100vh;
     padding-top: 100px;
 }
+
 #content-main .content-media .row {
     margin-bottom: 15px;
+}
+
+#footer {
+    color: rgb(154, 154, 154);
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+    padding-bottom: 10px;
+}
+#footer span {
+    font-size: 10px;
+    display: block;
+}
+#footer span a {
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+#footer span a:hover {
+    text-decoration: underline;
 }
