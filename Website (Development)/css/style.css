@@ -26,6 +26,9 @@
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
+.content-subpage {
+    margin-top: 100px;
+}
 
 #footer {
     color: rgb(154, 154, 154);
