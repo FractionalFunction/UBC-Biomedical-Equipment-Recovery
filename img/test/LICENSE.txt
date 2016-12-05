@@ -1,1 +1,4 @@
 The licenses for the images in this directory:
+
+'test-image-grey.png' - Created by Richie Zhang; License: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+'thumbnail-placeholder.png' - From https://www.iconfinder.com/icons/290132/gallery_image_photo_photography_picture_pictures_icon, modified by Richie Zhang; License: Free for commercial use
