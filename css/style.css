@@ -8,3 +8,6 @@
     height: 100vh;
     padding-top: 100px;
 }
+#content-main .content-media .row {
+    margin-bottom: 15px;
+}
