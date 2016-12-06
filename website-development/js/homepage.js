@@ -26,6 +26,7 @@ $(document).ready(function() {
 $(window).scroll(function() {
     // Do these things onscroll
     navbarCheckScroll();
+    checkNavbarClearence("#cover-page .jumbotron", "10vh");
 });
 window.onresize = function() {
     // Do these things onresize
@@ -41,4 +42,5 @@ window.onresize = function() {
             navbarCheckScroll()
         }
     }
+    checkNavbarClearence("#cover-page .jumbotron", "10vh");
 }
