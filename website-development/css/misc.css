@@ -1,1 +1,16 @@
 /* Miscellaneous Styles */
+
+/* Ensures that the footer always stays at the bottom of the page
+   Based on a snippet from https://css-tricks.com/snippets/css/sticky-footer/ */
+html, body {
+    height: 100%;
+}
+#content-main.footer-stick {
+    min-height: 100%;
+    margin-bottom: 100px; /* footer height */
+}
+#content-main.footer-stick:after {
+    content: "";
+    display: block;
+    height: 100px; /* This will be corrected using JavaScript */
+}

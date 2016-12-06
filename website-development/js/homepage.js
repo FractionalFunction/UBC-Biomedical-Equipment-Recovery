@@ -19,14 +19,15 @@ function navbarCheckDropdown() {
     }
 }
 
-$(document).ready(function() {
-    // Do these things onload
-
-});
 $(window).scroll(function() {
     // Do these things onscroll
     navbarCheckScroll();
+});
+
+$(document).ready(function() {
+    // Do these things onload
     checkNavbarClearence("#cover-page .jumbotron", "10vh");
+    correctFooterHeight();
 });
 window.onresize = function() {
     // Do these things onresize
@@ -39,8 +40,9 @@ window.onresize = function() {
         if (!$("#navbar-mobile-toggle").hasClass("collapsed")) {
             $("#navbar nav").removeClass("on-cover");
         } else {
-            navbarCheckScroll()
+            navbarCheckScroll();
         }
     }
     checkNavbarClearence("#cover-page .jumbotron", "10vh");
+    correctFooterHeight();
 }
