@@ -1,5 +1,7 @@
 /* Main CSS Stylesheet */
 
+@import "misc.css";
+
 #navbar nav.on-cover {
     background-color: rgba(0, 0, 0, 0);
     border: none;
@@ -15,6 +17,9 @@
     margin-bottom: 0;
 }
 
+#content-main {
+    padding-bottom: 15px;
+}
 .content-media {
     margin-top: 15px;
 }
