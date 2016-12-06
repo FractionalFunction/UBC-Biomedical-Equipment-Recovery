@@ -26,7 +26,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
     // Do these things onload
-    checkNavbarClearence("#cover-page .jumbotron", "10vh");
+    correctNavbarClearence("#cover-page .jumbotron", "10vh");
     correctFooterHeight();
 });
 window.onresize = function() {
@@ -43,6 +43,6 @@ window.onresize = function() {
             navbarCheckScroll();
         }
     }
-    checkNavbarClearence("#cover-page .jumbotron", "10vh");
+    correctNavbarClearence("#cover-page .jumbotron", "10vh");
     correctFooterHeight();
 }
