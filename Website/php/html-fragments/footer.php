@@ -1,11 +1,3 @@
-<?php
-
-/*
- * The footer
- */
-
-?>
-
 <div id="footer">
     <div class="container">
         <h3>The UBC Biomedical Equipment Recovery Project</h3>
