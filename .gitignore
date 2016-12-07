@@ -1,2 +1,5 @@
 # Shortcut Files
 *.lnk
+
+# NetBeans
+/website-development/nbproject/private/
