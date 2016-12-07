@@ -2,7 +2,7 @@
 <!-- UBC BGP Website Template Version 0.1 -->
 <html>
 <head>
-    <?php include_once 'php/html-head.php'; ?>
+    <?php include_once 'php/html-fragments/html-head.php'; ?>
 	
     <script src="js/homepage.js"></script>
 
