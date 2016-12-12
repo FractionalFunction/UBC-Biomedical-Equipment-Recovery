@@ -1,7 +1,7 @@
 The following license and copyright notice applies to all code in this
 project with the exception of the components listed at the end of this
-document. This license does NOT apply to any images in this project, which
-have their own licenses.
+document. This license also does not apply to any images or written work
+in this project, which have their own licenses and copyright notices.
 
 The MIT License (MIT)
 
