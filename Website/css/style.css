@@ -49,3 +49,14 @@
 #footer span a:hover {
     text-decoration: underline;
 }
+
+.content-full-height h1 {
+	font-size: 45px;
+}
+.content-full-height h2 {
+	font-size: 25px;
+}
+.content-full-height p,
+.content-full-height span {
+	font-size: 17px;
+}
