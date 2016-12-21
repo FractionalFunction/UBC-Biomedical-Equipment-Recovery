@@ -8,16 +8,6 @@ function navbarCheckScroll() {
         $("#navbar nav").addClass("on-cover");
     }
 }
-// Make the navbar change color if the dropdown is expanded
-function navbarCheckDropdown() {
-    if (!$("#bs-example-navbar-collapse-1").hasClass("collapsing")) {
-        if ($("#navbar-mobile-toggle").hasClass("collapsed")) {
-            $("#navbar nav").removeClass("on-cover");
-        } else {
-            navbarCheckScroll()
-        }
-    }
-}
 
 $(window).scroll(function() {
     // Do these things onscroll
