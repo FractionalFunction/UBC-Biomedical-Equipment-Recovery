@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="content-full-height no-bottom-margin" style="background-color: rgb(139, 110, 255)">
+        <div class="content-full-height no-bottom-margin vertical-center" style="background-color: rgb(139, 110, 255)">
             <div class="container" style="color: #ffffff;">
                 <h1>About the Project</h1>
                 <p>Following an equipment upgrade at the biomedical faculty at the University of British Columbia, a lot of the old equipment, books, and other resources were left over without use. The original plan at UBC was to simply throw all of this away, however, that plan was soon replaced by a proposal to recover and repurpose this equipment. This is the UBC Biomedical Equipment Recovery project, a plan to reuse old but still very functional scientific equipment and to prevent them from going to waste.</p>

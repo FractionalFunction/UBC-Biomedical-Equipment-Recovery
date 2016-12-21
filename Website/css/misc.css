@@ -14,3 +14,14 @@ html, body {
     display: block;
     height: 100px; /* This will be corrected using JavaScript */
 }
+
+/* Vertical Centering
+   From https://css-tricks.com/centering-css-complete-guide/ (section on 
+   vertically centered flexboxes) */
+.vertical-center,
+#cover-page .jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
