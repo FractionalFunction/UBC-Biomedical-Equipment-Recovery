@@ -18,6 +18,12 @@
 	background: url(../img/homepage/microscope.jpg) no-repeat center center fixed;
 	color: #ffffff;
 }
+#cover-page .jumbotron h2 {
+	font-size: 45px;
+}
+#cover-page .jumbotron h4 {
+	font-size: 25px;
+}
 #cover-page.no-bottom-margin .jumbotron,
 .content-full-height.no-bottom-margin .jumbotron {
     margin-bottom: 0;
