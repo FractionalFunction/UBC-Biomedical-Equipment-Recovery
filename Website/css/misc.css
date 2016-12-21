@@ -25,3 +25,13 @@ html, body {
   justify-content: center;
 }
 
+/* Background images for the cover page and full-height sections
+   From https://css-tricks.com/perfect-full-page-background-image/ 
+   On the cover div, add: 
+    background: url(img/test/test-image-grey.png) no-repeat center center fixed; */
+.background-image-cover {  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
