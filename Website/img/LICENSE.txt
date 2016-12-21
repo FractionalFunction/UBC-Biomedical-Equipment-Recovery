@@ -1,0 +1,7 @@
+The licenses for the images in this directory and all sub-directories:
+
+'test/test-image-grey.png' - by Richie Zhang; License: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+'test/thumbnail-placeholder.png' - from https://www.iconfinder.com/icons/290132/gallery_image_photo_photography_picture_pictures_icon, modified by Richie Zhang; License: Free for commercial use
+
+'homepage/microscope.png' - by Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+
