@@ -21,14 +21,14 @@
             <div class="jumbotron">
                 <div class="container">
                     <h2>The UBC Biomedical Equipment Recovery Project</h2>
-                    <h4>A student-led project to donate discarded books and equipment from the UBC Biomedical Faculty.</h4>
+                    <h4>A student-led initiative to donate discarded books and equipment from the UBC Biomedical Faculty.</h4>
                 </div>
             </div>
         </div>
         <div class="content-full-height no-bottom-margin vertical-center" style="background-color: rgb(139, 110, 255)">
             <div class="container" style="color: #ffffff;">
                 <h1>About the Project</h1>
-                <p>Following an equipment upgrade at the biomedical faculty at the University of British Columbia, a lot of the old equipment, books, and other resources were left over without use. The original plan at UBC was to simply throw all of this away, however, that plan was soon replaced by a proposal to recover and repurpose this equipment. This is the UBC Biomedical Equipment Recovery project, a plan to reuse old but still very functional scientific equipment and to prevent them from going to waste.</p>
+                <p>Following an equipment upgrade at the biomedical faculty at the University of British Columbia, a lot of the old equipment, books, and other resources were left over without use. The original plan at UBC was to simply throw all of this away, however, that plan was soon replaced by a proposal to recover and repurpose this equipment. This is the UBC Biomedical Equipment Recovery project, an initiative to reuse old but still very functional scientific equipment and to prevent them from going to waste.</p>
                 <h2>How We Can Help You</h2>
 				<p>If you manage a school or other educational organisation in need of scientific equipment, consider taking a look at the list of available resources. If you find that you are able to use some of the available resources, contact us and we can arrange for you to pick them up.</p>
             </div>
