@@ -73,3 +73,13 @@
 .content-full-height span {
 	font-size: 17px !important;
 }
+
+.item-thumbnail {
+	
+}
+.item-status {
+	margin-bottom: 10px;
+}
+.item-status span.label {
+	font-size: 10px !important;
+}
