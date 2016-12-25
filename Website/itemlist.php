@@ -9,7 +9,7 @@
 
     <script src="js/subpage.js"></script>
 
-    <title>Contact Us</title>
+    <title>Item List</title>
 </head>
 <body>
     <?php include_once 'php/html-fragments/navbar.php' ?>

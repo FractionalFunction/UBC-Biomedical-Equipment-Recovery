@@ -74,8 +74,19 @@
 	font-size: 17px !important;
 }
 
-.item-thumbnail {
-	
+.item-thumbnail .thumbnail {
+	background-color: #f3efef;
+	padding: 0;
+	border: none;
+}
+.item-thumbnail .thumbnail .caption {
+	padding-top: 0;
+	padding-bottom: 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+.item-thumbnail * {
+	border-radius: 0;
 }
 .item-status {
 	margin-bottom: 10px;
