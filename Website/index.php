@@ -37,7 +37,7 @@
 		<div class="container content-media" style="padding-top: 10vh;padding-bottom: 10vh;">
             <div class="row">
 				<p>This project is still in its early stages and not all of the available items have been fully cataloged. Therefore, we are unable to provide an online item list at this time, but it will be coming soon. We apologize for the inconvenience.</p>
-				<p>In the meantime, you can contact us directly at <a href="mailto:ubcequipmentrecovery@gmail.com">ubcequipmentrecovery@gmail.com</a> if you are interested, and we can give you a summary of the available items over email.</p>
+				<p>In the meantime, you can contact us directly at <a href="mailto:<?php echo $contactInformation["email"] ?>"><?php echo $contactInformation["email"] ?></a> if you are interested, and we can give you a summary of the available items over email.</p>
 			</div>
 		</div>
 		

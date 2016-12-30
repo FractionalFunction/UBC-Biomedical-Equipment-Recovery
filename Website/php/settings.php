@@ -12,5 +12,5 @@ define("DEBUG", true);
 
 // Contact information
 $contactInformation = array(
-	"email" => "example@example.com",
+	"email" => "ubcequipmentrecovery@gmail.com",
 );
