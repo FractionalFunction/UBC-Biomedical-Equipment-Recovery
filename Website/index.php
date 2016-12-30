@@ -33,6 +33,15 @@
 				<p>If you manage a school or other educational organisation in need of scientific equipment, consider taking a look at the list of available resources. If you find that you are able to use some of the available resources, contact us and we can arrange for you to pick them up.</p>
             </div>
         </div>
+		
+		<div class="container content-media" style="padding-top: 10vh;padding-bottom: 10vh;">
+            <div class="row">
+				<p>This project is still in its early stages and not all of the available items have been fully cataloged. Therefore, we are unable to provide an online item list at this time, but it will be coming soon. We apologize for the inconvenience.</p>
+				<p>In the meantime, you can contact us directly at <a href="mailto:ubcequipmentrecovery@gmail.com">ubcequipmentrecovery@gmail.com</a> if you are interested, and we can give you a summary of the available items over email.</p>
+			</div>
+		</div>
+		
+		<!--
         <div class="container content-media">
             <div class="row">
                 <div class="col-md-4 col-sm-5 col-xs-12">
@@ -74,6 +83,7 @@
                 </div>
             </div>
         </div>
+		-->
     </div>
 	<?php include_once 'php/html-fragments/footer.php'; ?>
 </body>
