@@ -11,7 +11,7 @@
 
     <script src="js/homepage.js"></script>
 
-    <title>The UBC Biomedical Equipment Recovery Project (Unfinished Alpha)</title>
+    <title>The UBC Biomedical Equipment Recovery Project</title>
 </head>
 <body>
     <?php include_once 'php/html-fragments/navbar.php' ?>
