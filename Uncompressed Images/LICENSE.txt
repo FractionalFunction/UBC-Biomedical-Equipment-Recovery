@@ -1,0 +1,4 @@
+The licenses for the images in this directory and all sub-directories:
+
+'homepage/microscope.png' - by Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+
