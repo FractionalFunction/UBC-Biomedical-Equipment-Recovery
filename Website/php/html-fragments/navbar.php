@@ -18,6 +18,7 @@
 					<li><a href="/about.php">About</a></li>
 					<li><a href="/itemlist.php">Item List</a></li>
                     <li><a href="/contact.php">Contact Us</a></li>
+					<!--
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -30,7 +31,9 @@
                             <li><a href="#">Text</a></li>
                         </ul>
                     </li>
+					-->
                 </ul>
+				<!--
                 <form class="navbar-form navbar-left">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search">
@@ -39,11 +42,13 @@
                         </span>
                     </div>
                 </form>
+				-->
                 <ul class="nav navbar-nav navbar-right">
+					<!--
                     <li><a href="#">Link</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+						<ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
                             <li><a href="#">Something else here</a></li>
@@ -51,6 +56,7 @@
                             <li><a href="#">Separated link</a></li>
                         </ul>
                     </li>
+					-->
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
