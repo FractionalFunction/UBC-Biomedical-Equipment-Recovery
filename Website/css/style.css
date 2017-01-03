@@ -8,13 +8,13 @@
 }
 
 #navbar nav.on-cover {
-    background-color: rgba(255, 255, 255, .85);
-    border: none;
+	background-color: rgba(255, 255, 255, .85);
+	border: none;
 }
 
 #cover-page .jumbotron {
-    height: 100vh;
-    text-align: center;
+	height: 100vh;
+	text-align: center;
 	background: url(../img/homepage/microscope.jpg) no-repeat center center fixed;
 	color: #ffffff;
 }
@@ -27,40 +27,40 @@
 }
 #cover-page.no-bottom-margin .jumbotron,
 .content-full-height.no-bottom-margin .jumbotron {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 #content-main {
-    padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 .content-media {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 .content-media .row {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 .content-full-height {
-    min-height: 100vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+	min-height: 100vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 #footer {
-    color: rgb(154, 154, 154);
-    background-color: rgb(244, 244, 244);
-    text-align: center;
-    padding-bottom: 10px;
+	color: rgb(154, 154, 154);
+	background-color: rgb(244, 244, 244);
+	text-align: center;
+	padding-bottom: 10px;
 }
 #footer span {
-    font-size: 10px;
-    display: block;
+	font-size: 10px;
+	display: block;
 }
 #footer span a {
-    color: rgb(133, 133, 133);
-    text-decoration: none;
+	color: rgb(133, 133, 133);
+	text-decoration: none;
 }
 #footer span a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .content-full-height h1 {

@@ -3,20 +3,20 @@
 /* Ensures that the footer always stays at the bottom of the page
    Based on a snippet from https://css-tricks.com/snippets/css/sticky-footer/ */
 html, body {
-    height: 100%;
+	height: 100%;
 }
 #content-main.footer-stick {
-    min-height: 100%;
-    margin-bottom: 100px; /* footer height */
+	min-height: 100%;
+	margin-bottom: 100px; /* footer height */
 }
 #content-main.footer-stick:after {
-    content: "";
-    display: block;
-    height: 100px; /* This will be corrected using JavaScript */
+	content: "";
+	display: block;
+	height: 100px; /* This will be corrected using JavaScript */
 }
 
 /* Vertical Centering
-   From https://css-tricks.com/centering-css-complete-guide/ (section on 
+   From https://css-tricks.com/centering-css-complete-guide/ (section on
    vertically centered flexboxes) */
 .vertical-center,
 #cover-page .jumbotron {
@@ -26,10 +26,10 @@ html, body {
 }
 
 /* Background images for the cover page and full-height sections
-   From https://css-tricks.com/perfect-full-page-background-image/ 
-   On the cover div, add: 
-    background: url(img/test/test-image-grey.png) no-repeat center center fixed; */
-.background-image-cover {  
+   From https://css-tricks.com/perfect-full-page-background-image/
+   On the cover div, add:
+	background: url(img/test/test-image-grey.png) no-repeat center center fixed; */
+.background-image-cover {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
