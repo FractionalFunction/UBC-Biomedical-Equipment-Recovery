@@ -4,4 +4,6 @@ The UBC Biomedical Equipment Recovery Project is a student-led project by the Si
 Churchill Secondary School IB class of 2017 to reclaim equipment discarded by the
 UBC Biomedical Faculty.
 
+The website is online at http://ubcequipmentrecovery.co/
+
 This repository includes the website (currently in alpha) for this project.
