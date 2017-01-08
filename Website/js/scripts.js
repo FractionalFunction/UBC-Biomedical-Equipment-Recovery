@@ -1,5 +1,25 @@
 // Main Javascript file
 
+function navbarCheckScroll() {
+	// Make navbar change color once scrolled
+	if ($(window).scrollTop() != 0) {
+		$("#navbar nav").removeClass("on-cover");
+	} else {
+		$("#navbar nav").addClass("on-cover");
+	}
+}
+
+function navbarCheckDropdown() {
+	// Make the navbar change color if the dropdown is expanded
+	if (!$("#bs-example-navbar-collapse-1").hasClass("collapsing")) {
+		if ($("#navbar-mobile-toggle").hasClass("collapsed")) {
+			$("#navbar nav").removeClass("on-cover");
+		} else {
+			navbarCheckScroll();
+		}
+	}
+}
+
 function correctNavbarClearence(selector, paddingOriginal) {
 	// Change the position of content-main according to
 	// the height of the navbar.
