@@ -1,9 +1,24 @@
+<?php
+
+	$navbarNavClasses = "";
+	if ($homepage) {
+		$navbarNavClasses = "on-cover";
+	} else if ($transparentNavbar) {
+		$navbarNavClasses = "navbar-transparent";
+	}
+	
+	$navbarToggleOnclick = "";
+	if ($homepage || $transparentNavbar) {
+		$navbarToggleOnclick = "onclick=\"navbarCheckDropdown('".$navbarNavClasses."')\"";
+	}
+?>
+
 <div id="navbar">
-	<nav class="navbar navbar-default navbar-fixed-top <?php if ($homepage) { echo "on-cover"; } if ($transparentNavbar) { echo "navbar-transparent"; } ?>">
+	<nav class="navbar navbar-default navbar-fixed-top <?= $navbarNavClasses ?>">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<button type="button" id="navbar-mobile-toggle" class="navbar-toggle collapsed" <?php if ($homepage || $transparentNavbar) { echo "onclick=\"navbarCheckDropdown()\""; } ?> data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<button type="button" id="navbar-mobile-toggle" class="navbar-toggle collapsed" <?= $navbarToggleOnclick ?> data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
