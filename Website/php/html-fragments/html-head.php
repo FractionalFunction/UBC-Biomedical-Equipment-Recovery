@@ -1,3 +1,15 @@
+<?php
+
+$directoryPath = "";
+
+// Allow relative directory paths to be set
+if (isset($directoryDepth)) {
+	for ($n = 0; $n <= $directoryDepth; $n++) {
+		$directoryPath .= "../";
+	}
+}
+?>
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +26,7 @@
 <script src="https://use.fontawesome.com/d2842936a4.js"></script>
 
 <!-- Project CSS -->
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="<?= $directoryPath ?>css/style.css" />
 
 <!-- Project JavaScript -->
-<script src="js/scripts.js"></script>
+<script src="<?= $directoryPath ?>js/scripts.js"></script>
