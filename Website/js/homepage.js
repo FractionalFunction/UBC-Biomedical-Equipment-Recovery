@@ -2,7 +2,7 @@
 
 $(window).scroll(function() {
 	// Do these things onscroll
-	navbarCheckScroll();
+	navbarCheckScroll("on-cover");
 });
 
 $(document).ready(function() {
@@ -15,13 +15,13 @@ window.onresize = function() {
 	if (window.innerWidth >= 768) {
 		// Desktop navbar is displayed
 		$("#navbar nav").addClass("on-cover");
-		navbarCheckScroll();
+		navbarCheckScroll("on-cover");
 	} else {
 		// Mobile navbar is displayed
 		if (!$("#navbar-mobile-toggle").hasClass("collapsed")) {
 			$("#navbar nav").removeClass("on-cover");
 		} else {
-			navbarCheckScroll();
+			navbarCheckScroll("on-cover");
 		}
 	}
 	correctNavbarClearence("#cover-page .jumbotron", "0");
