@@ -1,6 +1,6 @@
 #The UBC Biomedical Equipment Recovery Project
 
-Production release of the website for this project, version 1.1.
+Production release of the website for this project, last updated `8 January 2017`.
 
 Place the contents of this folder (without the README) at the root of the production website.
 
