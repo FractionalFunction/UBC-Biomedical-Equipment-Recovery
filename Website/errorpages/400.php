@@ -1,6 +1,8 @@
 <?php
 	$transparentNavbar = true;
 	include_once '../php/settings.php';
+	
+	http_response_code(400)
 ?>
 
 <!DOCTYPE html>
