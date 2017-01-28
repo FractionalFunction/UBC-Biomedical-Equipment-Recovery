@@ -5,12 +5,11 @@
 
 CREATE TABLE IF NOT EXISTS `MicroscopeModels` (
   `ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'The auto-incrementing ID',
+  `Type` text NOT NULL COMMENT 'The type of microscope',
   `Make` text NOT NULL COMMENT 'Manufacturer',
   `Model` text NOT NULL COMMENT 'Model number',
-  `Type` text NOT NULL COMMENT 'The type of microscope',
   `PlugType` text NOT NULL COMMENT 'Which power cable plug does it have?',
-  `Short Description` text NOT NULL COMMENT 'Short description for displaying on the thumbnails',
-  `Long Description` text NOT NULL COMMENT 'Long description for displaying on the item page',
+  `Description` text NOT NULL COMMENT 'Description of the microscope',
   `Comments` text NOT NULL COMMENT 'Comments about the microscope model (internal use)',
   UNIQUE KEY `ID` (`ID`),
   UNIQUE KEY `ID_2` (`ID`)
@@ -22,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `Microscopes` (
   `Model` text NOT NULL COMMENT 'The microscope model',
   `Status` text NOT NULL COMMENT 'Is it broken?',
   `Condition` text NOT NULL COMMENT 'How well does it work?',
-  `Comments` text NOT NULL COMMENT 'Comments about the model (internal use)',
+  `Comments` text NOT NULL COMMENT 'Comments about the microscope (internal use)',
   UNIQUE KEY `ID` (`ID`),
   UNIQUE KEY `ID_2` (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Available microscopes' AUTO_INCREMENT=1 ;
