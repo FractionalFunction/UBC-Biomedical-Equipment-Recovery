@@ -2,9 +2,8 @@
 -- -------------------------------------------------------------------------
 
 -- Table structure for table `MicroscopeModels`
-
 CREATE TABLE IF NOT EXISTS `MicroscopeModels` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'The auto-incrementing ID',
+  `ID` int(11) NOT NULL COMMENT 'The microscope model ID',
   `Type` text NOT NULL COMMENT 'The type of microscope',
   `Make` text NOT NULL COMMENT 'Manufacturer',
   `Model` text NOT NULL COMMENT 'Model number',
@@ -13,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `MicroscopeModels` (
   `Comments` text NOT NULL COMMENT 'Comments about the microscope model (internal use)',
   UNIQUE KEY `ID` (`ID`),
   UNIQUE KEY `ID_2` (`ID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Available microscope models' AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COMMENT='Available microscope models';
 
 -- Table structure for table `Microscopes`
 CREATE TABLE IF NOT EXISTS `Microscopes` (
