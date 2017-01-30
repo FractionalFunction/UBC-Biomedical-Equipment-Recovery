@@ -16,6 +16,8 @@ define("DB_SERVER", "localhost");
 define("DB_USERNAME", "username");
 define("DB_PASSWORD", "password");
 
+include_once("database.php");
+
 // Contact information
 $contactInformation = array(
 	"email" => "ubcequipmentrecovery@gmail.com",
