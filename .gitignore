@@ -3,3 +3,7 @@
 
 # NetBeans
 /Website/nbproject/private/
+
+# phpMyAdmin
+/Website/pma/
+/Website/phpmyadmin/
