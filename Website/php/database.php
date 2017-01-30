@@ -1,16 +1,15 @@
 <?php
 
-try {
-    $db = new PDO('mysql:host='.DB_SERVER.';dbname='.DB_NAME, DB_USERNAME, DB_PASSWORD);
-    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(PDOException $dbError) {
-    http_response_code(500);
+$db = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD);
+
+if ($db->connect_error) {
+
 ?>
 
 <?php 
-    // The error page that is displayed for database errors
-    // There were problems with importing this as a separate file from the errorpages folder
-    //     TODO: Move this to a separate file.
+	// The error page that is displayed for database errors
+	// There were problems with importing this as a separate file from the errorpages folder
+	// TODO: Move this to a separate file.
 ?>
 <!DOCTYPE html>
 <html>
@@ -33,11 +32,11 @@ try {
 			<div class="container">
 				<h1 style="font-size: 50px;">Database Connection Error</h1>
 				<h2>There was an error when connecting to the database.</h2>
-                <?php
-                    if (DEBUG) {
-                        echo "<p style=\"white-space: pre-wrap;\">$dbError</p>";
-                    }
-                ?>
+				<?php
+					if (DEBUG) {
+						echo "<p style=\"white-space: pre-wrap;\">$db->connect_error</p>";
+					}
+				?>
 			</div>
 		</div>
 </body>
