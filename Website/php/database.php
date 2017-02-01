@@ -1,6 +1,6 @@
 <?php
 
-$db = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD);
+$db = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 if ($db->connect_error) {
 
