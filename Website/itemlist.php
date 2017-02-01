@@ -21,168 +21,31 @@
 			</div>
 
 			<div class="row">
-				<div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div>
+				
+				<?php
+				$sql = $db->query("SELECT * FROM MicroscopeModels;");
 
-				<!-- TEST THUMBNAILS -->
-				<div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
+				if ($sql->num_rows > 0) {
+					while($microscopeModel = $sql->fetch_assoc()) {
+						?>
+							<div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<div class="thumbnail">
+									<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
+									<div class="caption">
+										<h4><?= $microscopeModel["Make"] ?> <?= $microscopeModel["Model"] ?></h4>
+										<p><?= $microscopeModel["Type"] ?></p>
+										<p><?= $microscopeModel["Description"] ?></p>
+										<p><a href="/item.php?id=<?= $microscopeModel["ID"] ?>&type=microscope" class="btn btn-primary" role="button">More Information</a></p>
+									</div>
+								</div>
 							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div><div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="thumbnail">
-						<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
-						<div class="caption">
-							<h3>Test Item</h3>
-							<p>Description. This is a descriptive description that is designed to describe the item in question.</p>
-							<div class="item-status">
-								<span class="label label-success">Working</span>
-								<span class="label label-danger">Components Missing</span>
-							</div>
-							<p><a href="#" class="btn btn-primary" role="button">More Information</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-						</div>
-					</div>
-				</div>
-				<!-- /TEST THUMBNAILS -->
+						<?php
+					}
+				} else {
+					echo "<p>There are no available items.</p>";
+				}
 
+				?>
 
 			</div>
 		</div>
