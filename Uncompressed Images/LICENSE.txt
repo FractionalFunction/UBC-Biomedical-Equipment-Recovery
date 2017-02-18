@@ -1,4 +1,13 @@
 The licenses for the images in this directory and all sub-directories:
 
-'homepage/microscope.png' - by Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'homepage/microscope.png' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
 
+'microscopes/b1.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'microscopes/b8.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'microscopes/b13.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'microscopes/b19.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'microscopes/b20.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'microscopes/e1.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'microscopes/ee22.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'microscopes/ee27.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
+'microscopes/w1.jpg' - (c) 2016 Richie Zhang; License: CC-BY (https://creativecommons.org/licenses/by/3.0/)
