@@ -30,7 +30,7 @@
 						?>
 							<div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
 								<div class="thumbnail">
-									<img src="img/test/test-image-grey.png" alt="Item Thumbnail">
+									<img src="img/microscopes/<?= $microscopeModel["Image"] ?>" alt="Item Thumbnail">
 									<div class="caption">
 										<h4><?= $microscopeModel["Make"] ?> <?= $microscopeModel["Model"] ?></h4>
 										<p><?= $microscopeModel["Type"] ?></p>
