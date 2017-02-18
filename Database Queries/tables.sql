@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS `MicroscopeModels` (
   `Type` text NOT NULL COMMENT 'The type of microscope',
   `Make` text NOT NULL COMMENT 'Manufacturer',
   `Model` text NOT NULL COMMENT 'Model number',
+  `Image` text NOT NULL COMMENT 'An image of the microscope',
   `PlugType` text NOT NULL COMMENT 'Which power cable plug does it have?',
   `Description` text NOT NULL COMMENT 'Description of the microscope',
   `Comments` text NOT NULL COMMENT 'Comments about the microscope model (internal use)',
