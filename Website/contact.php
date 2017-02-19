@@ -23,7 +23,7 @@
 			<br />
 			<span>Email: <a href="mailto:<?php echo $contactInformation["email"]; ?>" target="_blank"><?php echo $contactInformation["email"]; ?></a></span>
 			<hr />
-			<div class="col col-sm-6 col-xs-12">
+			<div class="col col-sm-8 col-xs-12">
 				<p>You can also contact us through the website, using the form below.</p>
 				<form id="contact-form" onsubmit="return false">
 					<div class="form-group">
