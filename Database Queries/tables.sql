@@ -25,3 +25,14 @@ CREATE TABLE IF NOT EXISTS `Microscopes` (
   UNIQUE KEY `ID` (`ID`),
   UNIQUE KEY `ID_2` (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Available microscopes' AUTO_INCREMENT=1 ;
+
+-- Table structure for table `Messages`
+CREATE TABLE IF NOT EXISTS `Messages` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'The auto-incrementing ID',
+  `Name` text NOT NULL COMMENT 'The name of the sender',
+  `Email` text NOT NULL COMMENT 'The email of the sender',
+  `Message` text NOT NULL COMMENT 'The message content',
+  `Comments` text NOT NULL COMMENT 'Comments from administrators about the message (internal use)',
+  UNIQUE KEY `ID` (`ID`),
+  UNIQUE KEY `ID_2` (`ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Messages from people wishing to contact us' AUTO_INCREMENT=1 ;
