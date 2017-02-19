@@ -2,6 +2,8 @@
 	include_once 'php/settings.php';
 ?>
 
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,8 +22,28 @@
 			<span>If you would like to get in touch, we can be contacted by the following means.</span>
 			<br />
 			<span>Email: <a href="mailto:<?php echo $contactInformation["email"]; ?>" target="_blank"><?php echo $contactInformation["email"]; ?></a></span>
+			<hr />
+			<div class="col col-sm-6 col-xs-12">
+				<p>You can also contact us through the website, using the form below.</p>
+				<form id="contact-form" onsubmit="return false">
+					<div class="form-group">
+						<label for="contact-Name">Name (Optional)</label>
+						<input class="form-control" id="contact-Name" type="text" name="Name" placeholder="Your Name" />
+					</div>
+					<div class="form-group">
+						<label for="contact-Email">Email (Required)</label>
+						<input class="form-control" id="contact-Email" type="email" name="Email" placeholder="you@example.com" required />
+					</div>
+					<div class="form-group">
+						<label for="exampleTextarea">Your Message (Required)</label>
+						<textarea form="contact-form" class="form-control" id="contact-Message" rows="3" required></textarea>
+					</div>
+					<button onclick="contactFormSubmit()" class="btn btn-primary">Send</button>
+				</form>
+			</div>
 		</div>
 	</div>
+	
 	<?php include_once 'php/html-fragments/footer.php'; ?>
 </body>
 </html>
