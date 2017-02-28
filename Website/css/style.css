@@ -123,3 +123,17 @@
 .item-image-list img.selected {
 	border: 3px solid #c3c3c3;
 }
+
+.form-message {
+    margin-left: 10px;
+}
+
+input[type="text"].error,
+input[type="url"].error,
+input[type="email"].error,
+input[type="number"].error,
+input[type="password"].error,
+input[type="search"].error,
+textarea.error {
+    border-color: #ff0000 !important;
+}
