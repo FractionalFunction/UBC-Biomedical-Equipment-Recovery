@@ -44,4 +44,8 @@ if ($db->connect_error) {
 
 <?php
 	exit();
+} else {
+	if (DEBUG) {
+		echo "<!-- Connected to Database -->";
+	}
 }
