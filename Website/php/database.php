@@ -45,7 +45,7 @@ if ($db->connect_error) {
 <?php
 	exit();
 } else {
-	if (DEBUG) {
+	if (DEBUG && !$api) {
 		echo "<!-- Connected to Database -->";
 	}
 }
