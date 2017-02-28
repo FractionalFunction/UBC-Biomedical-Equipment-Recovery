@@ -32,18 +32,22 @@
 					</div>
 					<div class="form-group">
 						<label for="contact-Email">Email (Required)</label>
-						<input class="form-control" id="contact-Email" type="email" name="Email" placeholder="you@example.com" required />
+						<input class="form-control" id="contact-Email" type="email" name="Email" placeholder="you@example.com" />
 					</div>
 					<div class="form-group">
 						<label for="exampleTextarea">Your Message (Required)</label>
-						<textarea form="contact-form" class="form-control" id="contact-Message" rows="3" required></textarea>
+						<textarea form="contact-form" class="form-control" id="contact-Message" rows="3"></textarea>
 					</div>
-					<button onclick="contactFormSubmit()" class="btn btn-primary">Send</button>
+					<input type="submit" class="btn btn-primary" value="Send" />
+					<span id="contact-form-message" class="form-message"></span>
 				</form>
 			</div>
 		</div>
 	</div>
 	
 	<?php include_once 'php/html-fragments/footer.php'; ?>
+	
+	<script src="js/contact.js"></script>
+	
 </body>
 </html>
