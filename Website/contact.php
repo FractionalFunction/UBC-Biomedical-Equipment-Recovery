@@ -36,7 +36,7 @@
 					</div>
 					<div class="form-group">
 						<label for="exampleTextarea">Your Message (Required)</label>
-						<textarea form="contact-form" class="form-control" id="contact-Message" rows="3"></textarea>
+						<textarea form="contact-form" class="form-control" id="contact-Message" rows="3" name="Message"></textarea>
 					</div>
 					<input type="submit" class="btn btn-primary" value="Send" />
 					<span id="contact-form-message" class="form-message"></span>
