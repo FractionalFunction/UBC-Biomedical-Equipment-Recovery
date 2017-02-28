@@ -24,8 +24,11 @@
 				
 				<?php
 				$sql = $db->query("SELECT * FROM MicroscopeModels;");
-
+				
 				if ($sql->num_rows > 0) {
+					
+					echo "<div class=\"col-xs-12\"><p>$sql->num_rows Item(s)</p></div><hr />";
+					
 					while($microscopeModel = $sql->fetch_assoc()) {
 						?>
 							<div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
