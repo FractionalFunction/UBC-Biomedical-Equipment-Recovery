@@ -36,3 +36,23 @@ CREATE TABLE IF NOT EXISTS `Messages` (
   UNIQUE KEY `ID` (`ID`),
   UNIQUE KEY `ID_2` (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Messages from people wishing to contact us' AUTO_INCREMENT=1 ;
+
+-- Table structure for table `Books`
+CREATE TABLE IF NOT EXISTS `Books` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'The auto-incrementing ID',
+  `ISBN13` text NOT NULL COMMENT 'The 13-digit ISBN number',
+  `Category` text NOT NULL,
+  `Title` text NOT NULL,
+  `FirstAuthor` text NOT NULL,
+  `Publisher` text NOT NULL,
+  `Edition` text NOT NULL,
+  `MarketPrice` text NOT NULL,
+  `Binding` text NOT NULL,
+  `Condition` text NOT NULL,
+  `Copies` text NOT NULL,
+  `PublicationDate` text NOT NULL,
+  `Notes` text NOT NULL,
+  `Visibility` text NOT NULL COMMENT 'Toggles the visibility of the listing. 0 for hidden and 1 for visible.',
+  
+  UNIQUE KEY `ID` (`ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Available books' AUTO_INCREMENT=1 ;
