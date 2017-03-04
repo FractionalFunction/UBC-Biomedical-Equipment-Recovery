@@ -22,6 +22,10 @@
 			<span>If you would like to get in touch, we can be contacted by the following means.</span>
 			<br />
 			<span>Email: <a href="mailto:<?php echo $contactInformation["email"]; ?>" target="_blank"><?php echo $contactInformation["email"]; ?></a></span>
+			
+			<br />
+			<p>If you would like to contact us about ordering items for your school or institution, fill out the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOiLzWi0nly5yL0Dt5_qFcLHVuBOXld_IT6w3rOfEDDoIYYA/viewform?c=0&w=1" target="_blank">here</a>.</p>
+			
 			<hr />
 			<div class="col col-sm-8 col-xs-12">
 				<p>You can also contact us through the website, using the form below.</p>

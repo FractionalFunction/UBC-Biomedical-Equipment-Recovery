@@ -39,6 +39,9 @@
 			<div class="row">
 				<p>You can contact us directly at <a href="mailto:<?php echo $contactInformation["email"] ?>"><?php echo $contactInformation["email"] ?></a> if you are interested, and we can give you a summary of the available items over email.</p>
 				<p>You can also see our <a herf="/itemlist.php">item list</a>.</p>
+				
+				<br />
+				<p>If you would like to contact us about ordering items for your school or institution, fill out the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOiLzWi0nly5yL0Dt5_qFcLHVuBOXld_IT6w3rOfEDDoIYYA/viewform?c=0&w=1" target="_blank">here</a>.</p>
 			</div>
 		</div>
 

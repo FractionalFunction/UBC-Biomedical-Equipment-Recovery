@@ -33,6 +33,7 @@
 					<li><a href="/about.php">About</a></li>
 					<li><a href="/itemlist.php">Item List</a></li>
 					<li><a href="/contact.php">Contact Us</a></li>
+					<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdOiLzWi0nly5yL0Dt5_qFcLHVuBOXld_IT6w3rOfEDDoIYYA/viewform?c=0&w=1" target="_blank">Request Items</a></li>
 					<!--
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
