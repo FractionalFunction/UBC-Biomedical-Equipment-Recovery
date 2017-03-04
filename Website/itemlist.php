@@ -19,6 +19,10 @@
 			<div class="page-header">
 				<h1>Available Items</h1>
 			</div>
+			
+			<div class="row">
+				<p>Here are all of the items that are available for request. Click the "Show" button on each section to view the types of items you are interested in. If you would like to request something for your school or institution, click the "Request Items" button in the navigation bar and fill out the form.</p>
+			</div>
 
 			<div class="row">
 				
