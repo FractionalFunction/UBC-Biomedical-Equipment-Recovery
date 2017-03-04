@@ -67,7 +67,7 @@
 				<h3>Books <button id="booklist-toggle" class="btn btn-primary" onclick="toggleSection('#booklist-toggle', '#booklist')">Show</button></h3>
 				
 				<div class="toggled-section" id="booklist">
-					<table class="table">
+					<table class="table table-striped">
 							<thead class="thead-default">
 								<tr>
 									<th>ID</th>
