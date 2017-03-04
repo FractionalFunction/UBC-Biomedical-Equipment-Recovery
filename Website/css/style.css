@@ -137,3 +137,7 @@ input[type="search"].error,
 textarea.error {
     border-color: #ff0000 !important;
 }
+
+.toggled-section {
+    display: none;
+}
