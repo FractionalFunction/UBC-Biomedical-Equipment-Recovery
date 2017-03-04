@@ -22,6 +22,8 @@
 
 			<div class="row">
 				
+				<h3>Microscopes</h3>
+				
 				<?php
 				$sql = $db->query("SELECT * FROM MicroscopeModels;");
 				
@@ -51,6 +53,69 @@
 				?>
 
 			</div>
+			
+			<hr />
+			
+			<div class="row">
+				
+				<h3>Books</h3>
+				
+				<table class="table">
+						<thead class="thead-default">
+							<tr>
+								<th>ID</th>
+								<th>ISBN-13</th>
+								<th>Category</th>
+								<th>Title</th>
+								<th>First Author</th>
+								<th>Publisher</th>
+								<th>Edition</th>
+								<th>Market Price</th>
+								<th>Binding</th>
+								<th>Condition</th>
+								<th>Number of Copies</th>
+								<th>Publication Date</th>
+								<th>Notes</th>
+							</tr>
+						</thead>
+						<tbody>
+				
+							<?php
+							$sql = $db->query("SELECT * FROM Books WHERE Visibility = 1;");
+
+							if ($sql->num_rows > 0) {
+
+								echo "<div class=\"col-xs-12\"><p>$sql->num_rows Item(s)</p></div><hr />";
+
+								while($book = $sql->fetch_assoc()) {
+									?>
+									<tr>
+										<td><?= $book["ID"] ?></td>
+										<td><?= $book["ISBN13"] ?></td>
+										<td><?= $book["Category"] ?></td>
+										<td><?= $book["Title"] ?></td>
+										<td><?= $book["Publisher"] ?></td>
+										<td><?= $book["Edition"] ?></td>
+										<td><?= $book["MarketPrice"] ?></td>
+										<td><?= $book["Binding"] ?></td>
+										<td><?= $book["Condition"] ?></td>
+										<td><?= $book["Copies"] ?></td>
+										<td><?= $book["PublicationDate"] ?></td>
+										<td><?= $book["Notes"] ?></td>
+									</tr>
+									<?php
+								}
+							} else {
+								echo "<p>There are no available items.</p>";
+							}
+
+							?>
+						</tbody>
+				</table>
+
+			</div>
+			
+			
 		</div>
 	</div>
 	<?php include_once 'php/html-fragments/footer.php'; ?>
