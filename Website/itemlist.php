@@ -123,6 +123,42 @@
 
 			</div>
 			
+			<hr />
+			
+			<div class="row">
+				
+				<h3>Animal Bones <button id="animalbonelist-toggle" class="btn btn-primary" onclick="toggleSection('#animalbonelist-toggle', '#animalbonelist')">Show</button></h3>
+				
+				<div class="toggled-section" id="animalbonelist">
+					<?php
+					$sql = $db->query("SELECT * FROM AnimalBones");
+
+					if ($sql->num_rows > 0) {
+
+						echo "<div class=\"col-xs-12\"><p>$sql->num_rows Item(s)</p></div><hr />";
+
+						while($specimen = $sql->fetch_assoc()) {
+							?>
+								<div class="item-thumbnail col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+									<div class="thumbnail">
+										<img src="img/animalbones/<?= $specimen["Image"] ?>" alt="Item Thumbnail">
+										<div class="caption">
+											<h4><?= $specimen["Name"] ?></h4>
+											<p><?= $specimen["NumberAvailable"] ?> Unit(s) Available</p>
+										</div>
+									</div>
+								</div>
+							<?php
+						}
+					} else {
+						echo "<p>There are no available items.</p>";
+					}
+
+					?>
+				</div>
+			</div>
+			
+			<hr />
 			
 		</div>
 	</div>
