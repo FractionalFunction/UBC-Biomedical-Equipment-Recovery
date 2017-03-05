@@ -56,3 +56,16 @@ CREATE TABLE IF NOT EXISTS `Books` (
   
   UNIQUE KEY `ID` (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Available books' AUTO_INCREMENT=1 ;
+
+-- Table structure for table `AnimalBones`
+CREATE TABLE IF NOT EXISTS `AnimalBones` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'The auto-incrementing ID',
+  `Name` text NOT NULL,
+  `NumberAvailable` text NOT NULL,
+  `Image` text NOT NULL,
+  `Visibility` text NOT NULL COMMENT 'Toggles the visibility of the specimen. 0 for hidden and 1 for visible.',
+  `Comments` text NOT NULL COMMENT 'Comments about the specimen (internal use)',
+
+  UNIQUE KEY `ID` (`ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COMMENT='Available animal bones' AUTO_INCREMENT=12 ;
+
