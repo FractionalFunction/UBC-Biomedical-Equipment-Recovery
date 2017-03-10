@@ -27,7 +27,6 @@
 				<h1>About us</h1>
 			</div>
 			<p>The entire UBC Equipment Recovery Project is a non-profit charity organized and run by students of Sir Winston Churchill Secondary. We intend to bring other educational institutions to the standard that we enjoy at our own school by refurbishing and distributing biomedical and educational equipment that UBC no longer has a need for. We plan to enrich the educational experiences of students less fortunate than us.</p>
-			<hr />
 
 			<small>Copyright (C) 2017 Nicolas Mattes</small>
 			
