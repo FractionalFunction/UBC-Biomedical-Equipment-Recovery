@@ -1,5 +1,13 @@
 <?php
 	include_once 'php/settings.php';
+	
+	$teamMembers = array(
+		// Add team members here (as strings)
+		"Null",
+		"Example",
+		"Named Person",
+	);
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,6 +30,22 @@
 			<hr />
 
 			<small>Copyright (C) 2017 Nicolas Mattes</small>
+			
+			
+			<hr />
+			
+			<h2>Team Members</h2>
+			<p>These are some of the Sir Winston Churchill Secondary IB students that contribute to this project. Some contributors wished to remain anonymous and were not included.</p>
+			<ul>
+				<?php
+
+				foreach ($teamMembers as &$teamMember) {
+					echo "<li>$teamMember</li>";
+				}
+
+				unset($teamMember);
+				?>
+			</ul>
 
 		</div>
 	</div>
