@@ -1,1 +1,0 @@
-$(document).ready(function(){correctNavbarClearence("#content-main","0px");correctFooterHeight()});window.onresize=function(){correctNavbarClearence("#content-main","0px");correctFooterHeight()};
