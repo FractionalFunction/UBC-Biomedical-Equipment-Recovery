@@ -30,7 +30,7 @@
 				
 				<div class="toggled-section" id="microscopelist">
 					<?php
-					$sql = $db->query("SELECT * FROM MicroscopeModels;");
+					$sql = $db->query("SELECT * FROM MicroscopeModels WHERE Visibility = 1;");
 
 					if ($sql->num_rows > 0) {
 
@@ -44,6 +44,7 @@
 										<div class="caption">
 											<h4><?= $microscopeModel["Make"] ?> <?= $microscopeModel["Model"] ?></h4>
 											<p><?= $microscopeModel["Type"] ?></p>
+											<hr />
 											<p><?= $microscopeModel["Description"] ?></p>
 											<p><a href="/item.php?id=<?= $microscopeModel["ID"] ?>&type=microscope" class="btn btn-primary" role="button">More Information</a></p>
 										</div>
@@ -74,7 +75,6 @@
 									<th>ISBN-13</th>
 									<th>Category</th>
 									<th>Title</th>
-									<th>First Author</th>
 									<th>Publisher</th>
 									<th>Edition</th>
 									<th>Market Price</th>
@@ -131,7 +131,7 @@
 				
 				<div class="toggled-section" id="animalbonelist">
 					<?php
-					$sql = $db->query("SELECT * FROM AnimalBones");
+					$sql = $db->query("SELECT * FROM AnimalBones WHERE Visibility = 1");
 
 					if ($sql->num_rows > 0) {
 

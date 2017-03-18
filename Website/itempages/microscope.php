@@ -75,7 +75,7 @@
 							 * Just make sure that the entry in question (which should not be user-editable)
 							 * does not contain any injection code.
 							 */
-							$sql = $db->query("SELECT * FROM Microscopes WHERE Model = ".$m["ID"].";");
+							$sql = $db->query("SELECT * FROM Microscopes WHERE Model = ".$m["ID"]." AND Visibility = 1;");
 							
 							echo "<h3>Available Units: $sql->num_rows</h3>";
 							if ($sql->num_rows > 0) {
