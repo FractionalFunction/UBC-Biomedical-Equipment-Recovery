@@ -75,6 +75,7 @@
 									<th>ISBN-13</th>
 									<th>Category</th>
 									<th>Title</th>
+									<th>First Author</th>
 									<th>Publisher</th>
 									<th>Edition</th>
 									<th>Market Price</th>
@@ -101,6 +102,7 @@
 											<td><?= $book["ISBN13"] ?></td>
 											<td><?= $book["Category"] ?></td>
 											<td><?= $book["Title"] ?></td>
+											<td><?= $book["FirstAuthor"] ?></td>
 											<td><?= $book["Publisher"] ?></td>
 											<td><?= $book["Edition"] ?></td>
 											<td><?= $book["MarketPrice"] ?></td>
