@@ -22,9 +22,10 @@ CREATE TABLE IF NOT EXISTS `Microscopes` (
   `Status` text NOT NULL COMMENT 'Is it broken?',
   `Condition` text NOT NULL COMMENT 'How well does it work?',
   `Comments` text NOT NULL COMMENT 'Comments about the microscope (internal use)',
+  `Visibility` text NOT NULL COMMENT 'Toggles the visibility of the listing. 0 for hidden and 1 for visible.',
   UNIQUE KEY `ID` (`ID`),
   UNIQUE KEY `ID_2` (`ID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Available microscopes' AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COMMENT='Available microscopes' AUTO_INCREMENT=95 ;
 
 -- Table structure for table `Messages`
 CREATE TABLE IF NOT EXISTS `Messages` (
