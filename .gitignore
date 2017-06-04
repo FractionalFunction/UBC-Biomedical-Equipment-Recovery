@@ -7,3 +7,10 @@
 # phpMyAdmin
 /Website/pma/
 /Website/phpmyadmin/
+
+# Image folders
+/Website/img/
+
+# Some of the images are coprighted by collaborators
+# and should not be pushed to Github
+/Uncompressed Images/Gitignored/
